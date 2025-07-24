@@ -12,7 +12,7 @@
 
 The execution video of the program can be found [here](https://github.com/diego-yason/LBYARCH-MP2/blob/8e31cb62b35a5941a98e6ad08489579b53143355/Yason/recording.mp4).
 
-I conducted the program 50 times via script using a typescript/javascript program. NodeJS's `performance` module was utilized to take the duration.
+I conducted the program 50 times via script using a typescript/javascript program. Each individual test uses a different, randomly generated dataset. NodeJS's `performance` module was utilized to take the duration.
 
 The average execution times are as follows:
 
