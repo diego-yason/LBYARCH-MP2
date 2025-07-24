@@ -5,7 +5,7 @@
 - `main.c`, `asmfunc.asm` - source files
 - `LBYARCH.exe` - the actual executable compiled from Visual Studio
 - `timer.js` - code used to benchmark and generate inputs
-- `results/*` - outputs of timer.js from my own testing. files are renamed to its relevant details
+- `results/*` - outputs of timer.js from testing. files are renamed to its relevant details
 - `recording.mp4` - actual video of code, compilation, and execution
 - `output/*` - actual sample input and output used for execution
 - `sampleOutput.png` - picture of both input and output found in `output` folder.
