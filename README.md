@@ -2,7 +2,7 @@
 
 ## Explanation of files
 
-- `main.c`, `asmfunc.asm` - source files
+- `src/*` - source files
 - `LBYARCH.exe` - the actual executable compiled from Visual Studio
 - `timer.js` - code used to benchmark and generate inputs
 - `results/*` - outputs of timer.js from testing. files are renamed to its relevant details
