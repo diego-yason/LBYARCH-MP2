@@ -16,9 +16,10 @@ I conducted the program 50 times via script using a typescript/javascript progra
 
 The average execution times are as follows:
 
-| size | time taken | time/number
-| 10x10 | 20.23ms | 0.2023ms
-| 100x100 | 40.64ms | 0.004064ms
-| 1000x1000 | 2088.13ms | 0.002088ms
+| size | time taken | time/number |
+|------|------------|-------------|
+| 10x10 | 20.23ms | 0.2023ms |
+| 100x100 | 40.64ms | 0.004064ms |
+| 1000x1000 | 2088.13ms | 0.002088ms |
 
 Based on the `time/number` data, it is clear that the larger the dataset is, the more efficient the program is. I can theorize that this is because of the set up required by the program to load up both C and ASM programs, which is already naturally an expensive task that would take the same amount of time, regardless of the amount of data processed. By having more data, the time consumed by the expensive task is shared more broadly, leading to a shorter `time/number`.
