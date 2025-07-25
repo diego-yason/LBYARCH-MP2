@@ -12,7 +12,7 @@
 
 ## Results
 
-The execution video of the program can be found [here](https://github.com/diego-yason/LBYARCH-MP2/blob/5172108a81113ff18312016b7cf13d7ea25fc196/MP/recording.mp4).
+The execution video of the program can be found [here](https://github.com/diego-yason/LBYARCH-MP2/blob/cb136a46ea5f7a3c059f9ed715ed9a0542cd0c3f/recording.mp4).
 
 The program was conducted 50 times via script using a typescript/javascript program. Each individual test uses a different, randomly generated dataset. NodeJS's `performance` module was utilized to take the duration.
 
